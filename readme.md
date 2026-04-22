@@ -1,14 +1,14 @@
 # Program Input Data Karyawan
  
-Program sederhana berbasis terminal untuk menginput, menyimpan, dan menampilkan data karyawan menggunakan Python.
+Program sederhana berbasis terminal untuk meng-input, menyimpan, dan menampilkan data karyawan menggunakan bahasa pemrograman Python.
  
 ---
  ## Fitur
-- Input data karyawan (nama, kota, jabatan, gaji)
-- Validasi input nama dan kota (hanya huruf dan spasi)
-- Validasi input gaji (hanya angka)
+- Input data karyawan berupa nama, kota, jabatan, dan gaji
+- Validasi input nama dan kota (hanya huruf dan spasi yang akan diterima sebagai karakter)
+- Validasi input gaji (hanya angka yang akan diterima sebagai data input)
 - Menyimpan banyak data karyawan sekaligus
-- Menampilkan semua data atau data tertentu
+- Menampilkan semua data atau data tertentu berdasarkan opsi yang dipilih
 ---
 
 ## Alur Program
@@ -39,7 +39,7 @@ Pilih Data
   ├── 0       → Tampilkan semua
   ├── 1 - n   → Tampilkan data ke-n
   ├── q       → Keluar
-  └── lainnya → "Data not match!"
+  └── lainnya → "Data tidak ada!"
 ```
  
 ---

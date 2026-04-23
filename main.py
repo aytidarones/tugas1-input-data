@@ -68,5 +68,10 @@ while True:
         elif 1 <= pilihData <= len(allKaryawan):
             print(f"\n=== Data #{pilihData} ===")
             print(allKaryawan[pilihData - 1])
+            dataTerpilih = allKaryawan[pilihData - 1]
+            print(dataTerpilih['nama'])
+            print(dataTerpilih['kota'])
+            print(dataTerpilih['jabatan'])
+            print(dataTerpilih['gaji'])
         else:
             print("Data tidak ada!")
